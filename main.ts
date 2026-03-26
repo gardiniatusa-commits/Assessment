@@ -6,10 +6,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 })
 let projectile: Sprite = null
 let mySprite: Sprite = null
-game.splash("Good-a-morning pineapple 😘")
-game.splash("If you get a score over 50....", "You WIN!")
-game.splash("I doubt you'll win, loser.")
-game.splash("TW: If you're easily rage-baited, I recommend you not play this!")
+game.splash("If you get a score over 50", "You WIN!")
 game.splash("Now....", "LETS GET INTO IT!")
 mySprite = sprites.create(img`
     . . . f f f f f f . . . . 
